@@ -6,11 +6,11 @@ public class PatientResponseDTO {
     private String email;
 
     public String getBirthDate() {
-        return birthDate;
+        return DateofBirth;
     }
 
     public void setBirthDate(String birthDate) {
-        this.birthDate = birthDate;
+        this.DateofBirth = birthDate;
     }
 
     public String getAddress() {
@@ -46,5 +46,5 @@ public class PatientResponseDTO {
     }
 
     private String address;
-    private String birthDate;
+    private String DateofBirth;
 }

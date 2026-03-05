@@ -1,5 +1,14 @@
-### GET request to example server
-GET https://examples.http-client.intellij.net/get
-    ?generated-in=IntelliJ IDEA
+### Create a new patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "example@example.com",
+    "address": "123 main street",
+    "dateOfBirth": "1995-09-09",
+    "registeredDate": "2024-11-28"
+}
+
 
 ###
